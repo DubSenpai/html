@@ -1,1 +1,14 @@
-<p> Hi! What brings you here? </p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+  	<meta name="description" content="This is a random site. You shouldn't be seeing this.">
+  	<meta name="keywords" content="Hmm...">
+  	<meta name="author" content="None">
+  	<title> Ara Ara </title>
+  </head>
+    >body>
+      <p>Hello! What brings you here?
+   </body>
+ </html>
