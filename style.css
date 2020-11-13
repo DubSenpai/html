@@ -1,0 +1,181 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#ffffff;
+}
+ /* Global */
+.container{
+  width:95%;
+  margin:auto;
+  overflow:hidden;
+}
+.comingsoon{
+  margin:auto;
+  overflow:hidden;
+  font-size:50px;
+  padding:20px;
+}
+#logo { 
+  float: left;
+  display: inline-block;
+  width:175px;
+  height:100px;
+}
+ ul{
+  margin:0;
+  padding:0;
+}
+ .discord{
+  height:38px;
+  background:#ffffff;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#000000;
+}
+ .dark{
+  padding:15px;
+  background:#ffffff;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+ /* Header **/
+header{
+  background:#ffffff;
+  color:#ffffff;
+  padding-top:10px;
+  min-height:50px;
+  border-bottom:#f64545 3px solid;
+}
+ header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+ header li{
+  float:left;
+  padding: 0 20px 0 20px;
+}
+ header #branding{
+  float:left;
+}
+ header #branding h1{
+  margin:0;
+}
+ header nav{
+  float:right;
+  margin-top:10px;
+}
+ header .highlight, header .current a{
+  color:#f64545;
+  font-weight:bold;
+}
+ header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+ /*Showcase*/
+#showcase{
+  min-height: 600px;
+  background:url('https://cdn.glitch.com/ee7e449e-771b-42a6-828c-27d1568fc808%2FUntitled-3.png?1544727357777') no-repeat center center fixed; 
+  background-size: 100% auto;
+  background-size: auto 80%;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: -2px 0 black, 0 2px black, 1px 0 black, 0 -2px black;
+  font-size: 20px;
+  padding: 60px;
+}
+ #showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+ #showcase p{
+  font-size:20px;
+}
+ /* Newsletter */
+#discord{
+  padding:15px;
+  color:#ffffff;
+  background:#3a3a3a
+}
+ #discord h1{
+  float:left;
+}
+ #discord form {
+  float:right;
+  margin-top:15px;
+}
+ /* Boxes */
+#boxes{
+  margin-top:20px;
+}
+ #boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+ #boxes .box img{
+  width:90px;
+}
+ /* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+ aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+ /* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+ /* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+ footer{
+  padding:1px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#f64545;
+  text-align: center;
+}
+ /* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+   header{
+    padding-bottom:20px;
+  }
+   #showcase h1{
+    margin-top:40px;
+  }
+  /* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 100px) 
+and (max-device-width : 1440px) {
+    /* Styles */
+}
