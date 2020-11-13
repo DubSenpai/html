@@ -3,12 +3,30 @@
   <head>
     <meta charset="utf-8">
   	<meta name="viewport" content="width=device-width">
-  	<meta name="description" content="This is a random site. You shouldn't be seeing this.">
-  	<meta name="keywords" content="Hmm...">
+  	<meta name="description" content="This website is a test.">
+  	<meta name="keywords" content="website testing">
   	<meta name="author" content="None">
-  	<title> Ara Ara </title>
+  	<title> Trial Site</title>
+  	<link rel="stylesheet" href="./style.css">
   </head>
-    >body>
-      <p>Hello! What brings you here?
+  <body>
+    <header>
+	    <div class="container">
+	      <div id="branding">
+		      <h1><span class="highlight">Website Trial | Home</span></h1>
+  		  </div>
+	  	  <nav>
+	  	   <ul>
+	  	    <li class="current"><a href="index.html">Home</a></li>
+	    	 	<li><a href="about.html">About</a></li>
+	  	   	<li><a href="services.html">Services</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+	  	   </ul>
+		  </nav>
+	  </div>
+	</header>
+    <footer>
+      <strong><small><p>Website Trial, Copyright &copy, 2018 <p></small></strong>
+    </footer>
    </body>
  </html>
